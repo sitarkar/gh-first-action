@@ -1,4 +1,4 @@
-name: Fisrt Workflow
+name: Firstt Workflow
 on: workflow_dispatch
 jobs:
   first-job:
