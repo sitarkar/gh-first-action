@@ -1,0 +1,10 @@
+name: Fisrt Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on:  ubuntu-latest
+    steps:
+      - name: Print greeting
+        run:  echo  "Hello Workld!"
+      - name: Print goodbye
+        run:  echi "Done -bye!"
